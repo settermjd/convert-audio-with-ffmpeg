@@ -1,4 +1,9 @@
 {
+    "name": "settermjd/convert-audio-with-ffmpeg",
+    "description": "This is a small PHP application that shows how to convert audio files to a limited number of other audio file formats.",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
     "config": {
         "sort-packages": true
     },
