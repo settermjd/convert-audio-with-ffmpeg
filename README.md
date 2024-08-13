@@ -74,6 +74,8 @@ Finally, click **Send** to make the request.
 
 If the request is successful, you'll see an audio control in the response's body section, which you can then listen to and confirm that the file has been successfully converted.
 
+The sample audio file was created by <a href="https://pixabay.com/users/lidérc-34910776/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=202298">Lidérc</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=202298">Pixabay</a>.
+
 [aac_format_url]: https://docs.fileformat.com/audio/aac/
 [flac_format_url]: https://docs.fileformat.com/audio/flac/
 [mp3_format_url]: https://docs.fileformat.com/audio/mp3/
