@@ -1,0 +1,33 @@
+{
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~8.3.0",
+        "php-di/slim-bridge": "^3.4",
+        "php-ffmpeg/php-ffmpeg": "^1.2",
+        "slim/psr7": "^1.7",
+        "slim/slim": "^4.14"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AppTest\\": "test/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^11.3"
+    },
+    "scripts": {
+        "serve": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -d upload_max_filesize=10M -d post_max_size=10M -S 0.0.0.0:8080 -t public/"
+        ],
+        "test": "phpunit --colors=always"
+    }
+}
