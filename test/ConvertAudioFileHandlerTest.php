@@ -45,8 +45,8 @@ class ConvertAudioFileHandlerTest extends TestCase
             self::UPLOAD_DIRECTORY,
             self::DOWNLOAD_DIRECTORY
         );
-        $handler->convertAudioFile('sample.wav', 'mp3');
-        $this->assertFileExists(self::DOWNLOAD_DIRECTORY . '/sample.mp3');
+        $handler->convertAudioFile('sample.mp3', 'flac');
+        $this->assertFileExists(self::DOWNLOAD_DIRECTORY . '/sample.flac');
     }
 
     public function testCanMoveUploadedFile()
